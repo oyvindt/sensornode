@@ -1,0 +1,506 @@
+# EESchema Netlist Version 1.1 created  Mon 02 Jul 2012 20:33:36 CEST
+(
+ ( /4FF0A18B $noname  X1 CRYSTAL_4P {Lib=CRYSTAL_4P}
+  (    1 N-000061 )
+  (    2 GND )
+  (    3 N-000060 )
+  (    4 GND )
+ )
+ ( /4FF09A91 $noname  C8 C {Lib=C}
+  (    1 N-000061 )
+  (    2 GND )
+ )
+ ( /4FF09A8D $noname  C9 C {Lib=C}
+  (    1 N-000060 )
+  (    2 GND )
+ )
+ ( /4FF099B1 $noname  R16 100K {Lib=R}
+  (    1 USB5V )
+  (    2 N-000026 )
+ )
+ ( /4FF099A8 $noname  R15 100K {Lib=R}
+  (    1 GND )
+  (    2 N-000026 )
+ )
+ ( /4FEDDEE8 $noname  BT1 BATTERY_MID {Lib=BATTERY_MID}
+  (    1 GND )
+  (    2 N-000003 )
+  (    3 N-000021 )
+  (    4 N-000021 )
+ )
+ ( /4FEDDED4 $noname  U3 RN-171 {Lib=RN-171}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000017 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 +3.3V )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 GND )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 GND )
+  (   21 GND )
+  (   22 GND )
+  (   23 GND )
+  (   24 /antenna )
+  (   25 GND )
+  (   26 GND )
+  (   27 GND )
+  (   28 GND )
+  (   29 N-000005 )
+  (   30 N-000063 )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 +3.3V )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 GND )
+  (   40 N-000056 )
+  (   41 ? )
+  (   42 ? )
+  (   43 N-000034 )
+  (   44 N-000058 )
+  (   45 N-000064 )
+  (   46 N-000062 )
+  (   47 GND )
+  (   48 ? )
+  (   49 +3.3V )
+ )
+ ( /4FEDDED3 $noname  U1 MCP1640 {Lib=MCP1640}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 N-000003 )
+  (    4 N-000057 )
+  (    5 +3.3V )
+  (    6 N-000003 )
+ )
+ ( /4FEDDED0 $noname  R3 680K {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000057 )
+ )
+ ( /4FEDDECF $noname  C1 4.7uF {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4FEDDECE $noname  L1 4.7uH {Lib=INDUCTOR}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+ ( /4FEDDECD $noname  R4 215K {Lib=R}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /4FEDDECC $noname  C4 10uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FEDDECB $noname  SW1 uC_RESET {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /4FEDDECA $noname  R1 10K {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000011 )
+ )
+ ( /4FEDDEC9 $noname  R2 470 {Lib=R}
+  (    1 N-000011 )
+  (    2 MCLR )
+ )
+ ( /4FEDDEC6 $noname  U2 PIC18F2XJ53 {Lib=PIC18F2XJ53}
+  (    1 MCLR )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 N-000046 )
+  (    7 USB5V )
+  (    8 GND )
+  (    9 N-000061 )
+  (   10 N-000060 )
+  (   11 ? )
+  (   12 N-000058 )
+  (   13 N-000034 )
+  (   14 +3.3V )
+  (   15 N-000052 )
+  (   16 N-000050 )
+  (   17 N-000064 )
+  (   18 N-000062 )
+  (   19 GND )
+  (   20 +3.3V )
+  (   21 RB0 )
+  (   22 RB1 )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 RB6 )
+  (   28 RB7 )
+ )
+ ( /4FEDDEC5 $noname  C3 10uF {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4FEDDEC2 $noname  C2 10uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FEDDEBA $noname  SW2 WiFi_RESET {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 N-000056 )
+ )
+ ( /4FEDDEB8 $noname  R8 100K {Lib=R}
+  (    1 N-000063 )
+  (    2 GND )
+ )
+ ( /4FEDDEB7 $noname  R7 470K {Lib=R}
+  (    1 N-000058 )
+  (    2 N-000063 )
+ )
+ ( /4FEDDEB6 $noname  R5 470K {Lib=R}
+  (    1 N-000064 )
+  (    2 N-000005 )
+ )
+ ( /4FEDDEB5 $noname  R6 100K {Lib=R}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /4FEDDEB3 $noname  A1 2.45GHz {Lib=ANT}
+  (    1 /antenna )
+ )
+ ( /4FEDDEB2 $noname  K4 T2 {Lib=CONN_3}
+  (    1 +3.3V )
+  (    2 RB0 )
+  (    3 GND )
+ )
+ ( /4FEDDEB1 $noname  K5 T1 {Lib=CONN_3}
+  (    1 +3.3V )
+  (    2 RB1 )
+  (    3 GND )
+ )
+ ( /4FEDDEAE $noname  R9 4.7K {Lib=R}
+  (    1 RB0 )
+  (    2 +3.3V )
+ )
+ ( /4FEDDEAD $noname  R10 4.7K {Lib=R}
+  (    1 RB1 )
+  (    2 +3.3V )
+ )
+ ( /4FEDDEAC $noname  K3 AD-HOC {Lib=CONN_2}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4FEDDEA9 $noname  K1 ICSP {Lib=CONN_5}
+  (    1 MCLR )
+  (    2 ? )
+  (    3 GND )
+  (    4 RB7 )
+  (    5 RB6 )
+ )
+ ( /4FEDDEA8 $noname  K2 USB {Lib=CONN_5}
+  (    1 N-000026 )
+  (    2 N-000052 )
+  (    3 N-000050 )
+  (    4 ? )
+  (    5 GND )
+ )
+ ( /4FEDDEA4 $noname  C5 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FEDDEA3 $noname  C6 10uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U3 22
+ U3 21
+ K3 2
+ U2 19
+ R15 1
+ U3 26
+ U3 25
+ C3 2
+ U3 14
+ U3 23
+ K2 5
+ K1 3
+ C2 2
+ K5 3
+ U3 27
+ C6 2
+ C5 2
+ R8 2
+ U2 8
+ K4 3
+ U3 47
+ R4 2
+ C1 2
+ U1 2
+ U3 39
+ U3 28
+ BT1 1
+ X1 4
+ R6 2
+ X1 2
+ U3 20
+ U3 1
+ C8 2
+ C9 2
+ C4 2
+ SW1 1
+ SW2 1
+Net 2 "" ""
+ U1 1
+ L1 2
+Net 3 "" ""
+ U1 6
+ BT1 2
+ C1 1
+ L1 1
+ U1 3
+Net 4 "+3.3V" "+3.3V"
+ K4 1
+ U1 5
+ R1 1
+ C2 1
+ K5 1
+ U3 10
+ C5 1
+ C6 1
+ R10 2
+ R9 2
+ U2 20
+ R3 1
+ U2 14
+ C4 1
+ U3 49
+ U3 34
+Net 5 "" ""
+ R6 1
+ R5 2
+ U3 29
+Net 11 "" ""
+ R2 1
+ R1 2
+ SW1 2
+Net 17 "" ""
+ U3 4
+ K3 1
+Net 21 "" ""
+ BT1 4
+ BT1 3
+Net 26 "" ""
+ R15 2
+ K2 1
+ R16 2
+Net 27 "USB5V" "USB5V"
+ R16 1
+ U2 7
+Net 34 "" ""
+ U2 13
+ U3 43
+Net 42 "RB0" "RB0"
+ U2 21
+ K4 2
+ R9 1
+Net 43 "MCLR" "MCLR"
+ U2 1
+ K1 1
+ R2 2
+Net 46 "" ""
+ U2 6
+ C3 1
+Net 47 "RB7" "RB7"
+ U2 28
+ K1 4
+Net 48 "RB6" "RB6"
+ U2 27
+ K1 5
+Net 50 "" ""
+ K2 3
+ U2 16
+Net 52 "" ""
+ K2 2
+ U2 15
+Net 55 "/antenna" "antenna"
+ U3 24
+ A1 1
+Net 56 "" ""
+ U3 40
+ SW2 2
+Net 57 "" ""
+ R4 1
+ U1 4
+ R3 2
+Net 58 "" ""
+ U3 44
+ R7 1
+ U2 12
+Net 59 "RB1" "RB1"
+ U2 22
+ R10 1
+ K5 2
+Net 60 "" ""
+ U2 10
+ C9 1
+ X1 3
+Net 61 "" ""
+ U2 9
+ C8 1
+ X1 1
+Net 62 "" ""
+ U2 18
+ U3 46
+Net 63 "" ""
+ U3 30
+ R7 2
+ R8 1
+Net 64 "" ""
+ R5 1
+ U3 45
+ U2 17
+}
+#End
